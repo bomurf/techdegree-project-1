@@ -31,6 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/new-background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +71,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid yellowgreen;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -203,5 +204,141 @@ a.social:hover {
     margin: 40px auto;
   }
 
+/* Experience Page */
+body.experience {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #f7f5f0;
+  background: #222;
 }
 
+.secondary-nav {
+  width: 100%;
+  background: darkgreen;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+div.experience {
+  margin-top: 100px;
+}
+
+ul.experience {
+  list-style-type: none;
+}
+
+div.nomura {
+  margin-top: 50px;
+}
+
+div.microsoft {
+  margin-top: 50px;
+}
+
+div.amway {
+  margin-top: 50px;;
+}
+
+/* Hobbies page */
+body.hobbies {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #f7f5f0;
+  background: grey;
+}
+
+.third-nav {
+  width: 100%;
+  background: navy;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+}
+
+div.hobbies {
+  margin-top: 100px;
+}
+
+div.hobbies h1{
+  color: white;
+}
+
+h2.hobbies-h2 {
+  color: #f7f5f0;
+}
+
+.card-hobbies {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  min-height: 400px;
+  text-align: left;
+  background: #fff;
+  background: url('images/baseball.jpg');background-size: 130%;background-repeat: no-repeat;background-position: top center;
+  opacity: 0.6;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-hobbies:hover {
+  border-color: #ff99ff;
+}
+
+.card-hobbies2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  background: url('images/bjj.jpg');background-size: 130%;background-repeat: no-repeat;background-position: top center;  
+  opacity: 0.6;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-hobbies2:hover {
+  border-color: #ff99ff;
+}
+
+.card-hobbies3 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  color: yellow;
+  max-width: 500px;
+  min-height: 400px;
+  text-align: left;
+  background: #fff;
+  background: url('images/surfing.jpg');background-size: 130%;background-repeat: no-repeat;background-position: top center;
+  opacity: 0.6;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-hobbies3:hover {
+  border-color: #ff99ff;
+}
+
+.card-hobbies4 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  color: red;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  background: url('images/kanji.png');background-size: 130%;background-repeat: no-repeat;background-position: top center;
+  opacity: 0.6;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-hobbies4:hover {
+  border-color: #ff99ff;
+}
